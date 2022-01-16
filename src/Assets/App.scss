@@ -1,0 +1,48 @@
+.container{
+    color: white;
+    border: 1px solid black;
+    .header{
+        width: 93%;
+        background-color: brown;
+        padding: 2rem;
+        margin: 0.3rem;
+        text-align: center;
+        font-size: 40px;
+        
+    }
+
+    .Section {
+        display: flex;
+        margin: 0.3rem;
+        justify-content: space-around;
+        flex-direction: row;
+        border-left: 0.5rem solid blue;
+        background-color: brown;
+        padding: 0.5rem;
+        
+        .Card{
+            background-color: black;
+            width: 9.4rem;
+            text-align: center;
+            
+        }
+
+        .Section-body-1{
+            background-color: chartreuse !important;
+            color: black;
+        }
+    }
+    .Konten{
+        display: flexbox;
+        margin: 0.3rem;
+        justify-content: space-around;
+        flex-direction: column;
+        border-left: 0.5rem solid blue;
+        padding: 0.5rem;
+        .news{
+            background-color: brown;
+            text-align: center;
+
+        }
+    }
+}
